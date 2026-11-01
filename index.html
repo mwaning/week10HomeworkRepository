@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filtering & Transforming Data</title>
+  </head>
+  <body>
+    <select name="typeSelect" id="typeSelect">
+      <option value="allTypes">All</option>
+      <option value="fire">Fire</option>
+      <option value="water">Water</option>
+      <option value="electric">Electric</option>
+      <option value="grass">Grass</option>
+    </select>
+
+    <select name="sortSelect" id="sortSelect">
+      <option value="sortDefault">Default</option>
+      <option value="highAttack">Highest Attack</option>
+      <option value="lowAttack">Lowest Attack</option>
+      <option value="highHp">Highest HP</option>
+      <option value="lowHp">Lowest HP</option>
+    </select>
+
+    <button id="searchBtn">Search with Filters</button>
+
+    <div id="wrapper"></div>
+
+    <script src="app/app.js"></script>
+  </body>
+</html>
